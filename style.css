@@ -34,6 +34,13 @@ color: aliceblue;
 outline: none;
 border: none;
 cursor: pointer;
+transition: 0.3a;
+
+}
+input:last-child:hover{
+
+background-color: rgb(72, 4, 136);
+
 
 }
 .display{
