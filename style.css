@@ -31,10 +31,11 @@ border-radius: 5px;
 width: fit-content;
 background-color: blueviolet;
 color: aliceblue;
+transition: 0.4s;
 outline: none;
 border: none;
 cursor: pointer;
-transition: 0.3a;
+
 
 }
 input:last-child:hover{
