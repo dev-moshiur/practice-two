@@ -1,0 +1,89 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 16px;
+    width: 90%;
+    border: 1px solid #444;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    
+
+}
+input:first-child{
+border: 1px solid #444;
+outline: none;
+padding: 5px 8px;
+border-radius: 5px;
+}
+input:last-child{
+    padding: 5px 8px;
+border-radius: 5px;
+width: fit-content;
+background-color: blueviolet;
+color: aliceblue;
+outline: none;
+border: none;
+cursor: pointer;
+
+}
+.display{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+}
+.value{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+.head >*{
+    padding: 5px 8px;
+    flex: 1 1 100px;
+}
+.value >*{
+    padding: 5px 8px;
+    flex: 1 1 100px;
+}
+.watch{
+    display: flex;
+    align-items: center;
+
+    
+}
+.heading{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.watchChild{
+    margin-right: 10px;
+    margin-left: 5px;
+
+}
+.topHeading{
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
